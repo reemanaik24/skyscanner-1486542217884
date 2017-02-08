@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: skyscanner
+  host: skyscanner
+  disk_quota: 1024M
+  services:
+  - Conversation-Smart
+  - Cloudant NoSQL DB-fl
